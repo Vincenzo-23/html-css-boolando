@@ -8,7 +8,7 @@
 
 img {
 	max-width: 100%;
-    display: block;
+    display: inline-block;
 }
 
 a {
@@ -80,10 +80,12 @@ button{
 .discount-badge{
     position: absolute;
     bottom: 50px;
+    left: 0;
     background-color: red;
     color: white;
     padding: 5px 10px;
     font-weight: 700;
+    
 }
 
 .sustainability, .last-sustainability{
@@ -109,6 +111,18 @@ button{
     left: 0px;
     
 }
+
+
+.hover-img{
+    position: absolute;
+    left: 0;
+    opacity: 0;
+}
+
+.hover-img:hover{
+    opacity: 1;
+}
+
 
 
 
