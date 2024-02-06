@@ -29,11 +29,47 @@ button{
 /* LAYOUT */
 
 
-.container{
+
+/* Header */
+
+.container, .container-header{
     max-width: 2048px;
     margin: 0 auto;
     padding: 0 20px;
 }
+
+
+
+.container-header .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+}
+
+
+.col-3-header{
+    font-size: 20px;
+}
+
+
+.logo{
+    width: 150px;
+}
+
+
+header{
+    padding: 20px 0;
+    color: white;
+    margin-bottom: 50px;
+    background-color: rgb(255, 105, 0);
+}
+
+
+
+
+/* Main */
 
 
 .container .row {
@@ -46,11 +82,18 @@ button{
 
 .col-3{
     width: calc(3 * 100% / 12);
+    min-height: 100%;
     
 }
 
 
+
 /* CARD STYLE */
+
+
+
+/* Card Footer */
+
 
 .card-footer-brand{
     color: rgb(65, 65, 65);
@@ -72,6 +115,10 @@ button{
     text-decoration: line-through;
     
 }
+
+
+    /* Card header */
+
 
 .card-header{
     position: relative;
@@ -129,18 +176,14 @@ button{
 /* DEBUG */
 
 
-.debug header{
-    background-color: red;
-    height: 50px;
-    margin-bottom: 50px;
-}
+
 
 
 .debug div[class^="col"]{
     /* width: 300px;
     background-color: rgba(136, 225, 241, 0.685);
     min-height: 300px; */
-    border: 2px solid black;
+    /* border: 2px solid black; */
    
 }
 
