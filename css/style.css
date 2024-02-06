@@ -58,7 +58,7 @@ ol {
 }
 
 
-div[class^="col"]{
+.debug div[class^="col"]{
     width: 300px;
     background-color: rgba(136, 225, 241, 0.685);
     min-height: 300px;
