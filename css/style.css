@@ -22,6 +22,9 @@ ol {
 	list-style: none;
 }
 
+button{
+    border-style: none;
+}
 
 /* LAYOUT */
 
@@ -67,6 +70,43 @@ ol {
     color: rgb(65, 65, 65);;
     font-weight: 400;
     text-decoration: line-through;
+    
+}
+
+.card-header{
+    position: relative;
+}
+
+.discount-badge{
+    position: absolute;
+    bottom: 50px;
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    font-weight: 700;
+}
+
+.sustainability, .last-sustainability{
+    position: absolute;
+    bottom: 50px;
+    left: 60px;
+    background-color: green;
+    color: white;
+    padding: 5px 10px;
+    font-weight: 700;
+}
+
+.like-button{
+    position: absolute;
+    background-color: white;
+    padding: 8px 12px;
+    font-size: 24px;
+    top: 15px;
+    right: 0;
+}
+
+.last-sustainability{
+    left: 0px;
     
 }
 
