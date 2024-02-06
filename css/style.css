@@ -20,3 +20,54 @@ ul,
 ol {
 	list-style: none;
 }
+
+
+/* LAYOUT */
+
+
+.container{
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+.container .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+}
+
+
+.col-4{
+    width: calc(4 * 100% / 12);
+    
+}
+
+
+
+
+/* DEBUG */
+
+
+.debug header{
+    background-color: red;
+    height: 50px;
+    margin-bottom: 50px;
+}
+
+
+div[class^="col"]{
+    width: 300px;
+    background-color: rgba(136, 225, 241, 0.685);
+    min-height: 300px;
+    border: 2px solid black;
+   
+}
+
+.debug footer{
+    background-color: black;
+    height: 50px;
+    margin-top: 50px;
+}
