@@ -27,7 +27,7 @@ ol {
 
 
 .container{
-    max-width: 1024px;
+    max-width: 2048px;
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -47,6 +47,29 @@ ol {
 }
 
 
+/* CARD STYLE */
+
+.card-footer-brand{
+    color: rgb(65, 65, 65);
+}
+
+.card-footer-title{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.card-footer-price{
+    color: rgb(219, 0, 0);
+    font-weight: 700;
+}
+
+.old-price{
+    color: rgb(65, 65, 65);;
+    font-weight: 400;
+    text-decoration: line-through;
+    
+}
+
 
 
 /* DEBUG */
@@ -60,8 +83,8 @@ ol {
 
 
 .debug div[class^="col"]{
-    /* width: 300px; */
-    /* background-color: rgba(136, 225, 241, 0.685);
+    /* width: 300px;
+    background-color: rgba(136, 225, 241, 0.685);
     min-height: 300px; */
     border: 2px solid black;
    
