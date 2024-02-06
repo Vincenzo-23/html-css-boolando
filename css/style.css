@@ -8,6 +8,7 @@
 
 img {
 	max-width: 100%;
+    display: block;
 }
 
 a {
@@ -40,8 +41,8 @@ ol {
 }
 
 
-.col-4{
-    width: calc(4 * 100% / 12);
+.col-3{
+    width: calc(3 * 100% / 12);
     
 }
 
@@ -59,9 +60,9 @@ ol {
 
 
 .debug div[class^="col"]{
-    width: 300px;
-    background-color: rgba(136, 225, 241, 0.685);
-    min-height: 300px;
+    /* width: 300px; */
+    /* background-color: rgba(136, 225, 241, 0.685);
+    min-height: 300px; */
     border: 2px solid black;
    
 }
